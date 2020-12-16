@@ -28,6 +28,10 @@ a:link, a:visited{
 
 }
 
+img {
+  border-radius: 8px;
+}
+
 a:hover, a:active {
 
   background-color: transparent;
@@ -49,9 +53,11 @@ p{
 
 #creature{
   width: 17vw;
-  float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top:9vw;
   margin-right:13vw;
-  margin-top:-50vh;
 }
 
 /* hidding the audio player */
@@ -60,9 +66,30 @@ p{
 }
 
 /* play button image */
+#image2 {
+  width: 17vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top:27vw;
+  margin-right:13vw;
+}
+
+/* play button image */
 #good-play {
   width: 6vw;
   position: absolute;
-  bottom: 15vh;
-  left: 75vw;
+  top: 0;
+  right: 0;
+  margin-top:40vw;
+  margin-right:10vw;
 }
+
+#portrait1,#portrait2{
+  width:17vw;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+}
+

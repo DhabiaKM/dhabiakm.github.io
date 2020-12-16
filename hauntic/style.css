@@ -1,0 +1,68 @@
+body{
+  background-image: url("watercolorbg.jpg");
+  background-size:cover;
+  font-family: 'Cinzel', serif;
+  color: #515757;
+  margin-left:10vw;
+  margin-top:7vw;
+}
+
+nav {
+  display: flex;
+  list-style-type: none;
+}
+
+
+a:link, a:visited{
+  font-size:1.5em;
+  border-radius: 8px;
+  color:white;
+  background-color:#515757;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  transition-duration: 0.4s;
+  font-weight: bold;
+  margin:10px;
+  opacity: 0.4;
+
+}
+
+a:hover, a:active {
+
+  background-color: transparent;
+  color:#515757;
+  opacity: 0.9;
+}
+
+h1{
+  font-size: 7vh;
+}
+
+h3{
+  margin-right:10vw;
+}
+
+p{
+  margin-right:40vw;
+}
+
+#creature{
+  width: 17vw;
+  float: right;
+  margin-right:13vw;
+  margin-top:-50vh;
+}
+
+/* hidding the audio player */
+#good-player {
+  display: none;
+}
+
+/* play button image */
+#good-play {
+  width: 6vw;
+  position: absolute;
+  bottom: 15vh;
+  left: 75vw;
+}

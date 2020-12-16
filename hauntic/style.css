@@ -118,4 +118,18 @@ p{
   text-align:center;
 
 }
+#buttomain { 
+  font-size:0.5em;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  color:white;
+  background-color:#515757;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  transition-duration: 0.4s;
+  font-weight: bold;
+  margin:10px;
+  opacity: 0.4;
+}
 

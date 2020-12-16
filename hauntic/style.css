@@ -32,6 +32,7 @@ img {
   border-radius: 8px;
 }
 
+
 a:hover, a:active {
 
   background-color: transparent;
@@ -85,11 +86,24 @@ p{
   margin-right:10vw;
 }
 
-#portrait1,#portrait2{
-  width:17vw;
+#portrait1 { 
+  position: relative;
+  left: 50%;
+  width:20vw;
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
   text-align:center;
+
+}
+#portrait2{
+  position: static;
+  left: 60%;
+  width:20vw;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+
 }
 
